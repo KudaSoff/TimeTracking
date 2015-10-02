@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+
+    <link type="text/css" rel="stylesheet" href="styles/datepicker.css" />
+
+    <script type="text/javascript" src="http://google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load('jquery', '1');
+        google.load('jqueryui', '1');
+    </script>
+
+    <script type="text/javascript" src="jscripts/action.js"></script>
+    <script type="text/javascript" src="jscripts/style.js"></script>
+    <script type="text/javascript" src="jscripts/header.js"></script>
+    <script type="text/javascript" src="jscripts/content.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div id="slogan"></div>
+        <menu id="main_menu"></menu>
+    </header>
+    <aside id="left_side"></aside>
+    <section id="content">
+        <form id="work" name="work">
+            <label for="date">Дата выполнения</label>
+
+            <input type="text" id="date"/>
+        </form>
+    </section>
+    <aside id="right_side"></aside>
+    <footer id="footer"></footer>
+</body>
+</html>
